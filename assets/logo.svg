@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 180">
+<g fill="none" stroke="#111318" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<ellipse cx="90" cy="90" rx="55" ry="72"/><path d="M90 48v78"/><path d="M69 74h42"/>
+<path d="M73 74c-8 12-12 22-12 30h24c0-8-4-18-12-30Z"/>
+<path d="M107 74c-8 12-12 22-12 30h24c0-8-4-18-12-30Z"/>
+<path d="M90 48l-13 12m13-12 13 12"/><path d="M78 126h24"/>
+</g>
+<text x="175" y="82" font-family="Georgia,serif" font-size="58" fill="#111318">Smoerland</text>
+<text x="178" y="126" font-family="Arial,sans-serif" font-size="24" letter-spacing="9" fill="#111318">VERLAG</text>
+</svg>

@@ -1,0 +1,42 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <div class="eyebrow">{{ site.name | escape }}</div>
+        <h1>{{ site.claim | escape }}</h1>
+        <div class="lead">{{ content | safe }}</div>
+        <a class="button" href="#books">Unsere Bücher</a>
+      </div>
+      {% if featuredBook and featuredBook.cover %}
+        <a class="hero-cover" href="{{ featuredBook.url }}">
+          <img src="{{ featuredBook.cover }}" alt="Buchcover: {{ featuredBook.title | escape }}">
+        </a>
+      {% endif %}
+    </div>
+  </section>
+
+  <section class="wrap section" id="books">
+    <div class="eyebrow">Programm</div>
+    <h2>Unsere Bücher</h2>
+    <div class="book-grid">
+      {% for book in books %}
+        <article class="book-card">
+          <a class="book-cover{% if not book.cover %} book-cover-placeholder{% endif %}" href="{{ book.url }}">
+            {% if book.cover %}
+              <img src="{{ book.cover }}" alt="Buchcover: {{ book.title | escape }}">
+            {% else %}
+              <span>{{ book.title | escape }}</span>
+            {% endif %}
+          </a>
+          <div class="book-card-copy">
+            <h3><a href="{{ book.url }}">{{ book.title | escape }}</a></h3>
+            {% if book.author %}<p>{{ book.author | escape }}</p>{% endif %}
+            {% if book.series %}<p class="series">{{ book.series | escape }}{% if book.seriesNumber %} · Band {{ book.seriesNumber }}{% endif %}</p>{% endif %}
+          </div>
+        </article>
+      {% endfor %}
+    </div>
+  </section>
+{% endblock %}

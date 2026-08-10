@@ -1,0 +1,20 @@
+{% extends "base.njk" %}
+
+{% block content %}
+  <article class="wrap book-detail">
+    <div class="book-detail-cover{% if not page.cover %} book-cover-placeholder{% endif %}">
+      {% if page.cover %}
+        <img src="{{ page.cover }}" alt="Buchcover: {{ page.title | escape }}">
+      {% else %}
+        <span>{{ page.title | escape }}</span>
+      {% endif %}
+    </div>
+    <div class="book-detail-copy">
+      {% if page.series %}<div class="eyebrow">{{ page.series | escape }}{% if page.seriesNumber %} · Band {{ page.seriesNumber }}{% endif %}</div>{% endif %}
+      <h1>{{ page.title | escape }}</h1>
+      {% if page.author %}<p class="book-author">{{ page.author | escape }}</p>{% endif %}
+      {% if page.description %}<p class="book-description">{{ page.description | escape }}</p>{% endif %}
+      <div class="prose book-body">{{ content | safe }}</div>
+    </div>
+  </article>
+{% endblock %}
