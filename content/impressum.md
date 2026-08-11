@@ -12,12 +12,11 @@ Impressum
 Angaben gemäß § 5 Telemediengesetz (TMG) bzw. den jeweils geltenden gesetzlichen Informationspflichten.
 
 Diensteanbieter
-Smoerland Verlag
-Inh. Michael Schneider
-Huertusweg 7
-54470 Bernkastel-Kues
+Smoerland Verlag  
+Inh. Michael Schneider  
+Huertusweg 7  
+54470 Bernkastel-Kues  
 Deutschland
-
 
 Kontakt
 E-Mail:
