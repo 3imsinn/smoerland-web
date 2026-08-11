@@ -4,6 +4,7 @@ author: Jacques Futrelle
 series: Professor Van Dusen
 seriesNumber: 3
 template: book
+cover: /assets/covers/der-mann-der-verloren-war.png
 description: Ein klassischer Fall für Professor Van Dusen.
 navigation: false
 ---
