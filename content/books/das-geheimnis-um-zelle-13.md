@@ -6,7 +6,7 @@ seriesNumber: 1
 template: book
 cover: /assets/covers/das-geheimnis-von-zelle-13.jpg
 description: Van Dusen ist der amerikanische Sherlock Holmes! Geheimnisvoll, analytisch und abgedreht! Alle Van-Dusen Krimis in deutscher Übersetzung. 
-navigation: true
+navigation: false
 ---
 
 
