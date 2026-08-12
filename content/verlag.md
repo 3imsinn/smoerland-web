@@ -18,10 +18,8 @@ Ein bewusst kleines Programm.
 
 Text, Übersetzung und Gestaltung als Einheit.
 
-## Weitere Titel folgen
 
-Neu erschlossene Klassiker und ausgewählte neue Texte.
 
 ## Kontakt
 
-[kontakt@smoerland-verlag.de](mailto:kontakt@smoerland-verlag.de)
+[info@smoerland-verlag.de](mailto:info@smoerland-verlag.de)
